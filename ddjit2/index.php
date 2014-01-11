@@ -1,5 +1,5 @@
 <?php get_template_part('templates/page', 'header'); ?>
-<?php get_template_part('templates/content', 'abstract'); ?>
+<?php get_template_part('templates/content', 'single'); ?>
 
 
 <?php if ($wp_query->max_num_pages > 1) : ?>

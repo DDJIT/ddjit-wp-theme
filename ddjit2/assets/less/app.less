@@ -62,9 +62,37 @@ padding: 0;
 }
 .content { }
 
+section{
+   clear: both;
+padding-bottom: 18px;
+margin-top: 10px;
+padding-top: 10px;
+}
+
+article{
+   border-bottom: 1px solid #eee;
+   position: relative;
+   .post_tags{
+      position: absolute;
+      margin-right: -5px;
+      margin-top: -1px;
+      text-align: right;
+      right: 0;
+      top: 0;
+      .tag{
+         list-style-type: none;
+         padding: 5px;
+         span{
+            padding: 4px;
+            background-color: bisque;
+         }
+      }
+   }
+}
 article footer{
    clear:both;
 }
+
 
 /* ==========================================================================
    Primary Content

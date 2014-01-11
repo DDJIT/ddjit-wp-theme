@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Roots includes
@@ -20,4 +21,4 @@ require_once locate_template('/lib/custom.php');          // Custom functions
 
 define( 'THEME_URI', get_stylesheet_directory_uri() );
 
-add_image_size( 'wide_page', 2048, 180, false );
+add_image_size( 'wide_page', 2048, 1536, true );
